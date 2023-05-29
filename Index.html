@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UFC-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>High-Stand E-commerce website design</title>
+<link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+<div class="header">
+<div class="container">
+
+        <div class="navbar">
+        <div class="logo">
+        </div>
+    <a href="Index.html"><img src="images/logo_use.png" width="80px" lenght="90px"></a>
+    <nav>
+        <ul id="MenItems">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="products.html">Product</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+    <a href="cart.html"><img src="images/cart_1.png" width="30px" height="30px"></a>
+    <img src="images/menu_icon.png" class="menu-icon" onclick="menutoggle()">
+</div>
+
+
+<!------ search-bar ------>
+<div class="search-bar">
+        <div class="row-7">
+            <div class="col-7">
+                <div class="form-container-7">    
+    <form id="SearchForm">
+        <input type="text" placeholder="&#128269; Search">
+        </form>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="row">
+    <div class="col-2">
+        <h1 style="color: white;">Everyday bags for everyday looks!</h1>
+        <p><strong>High Quality brands and seasoned collections for<br> men and women of classic appearances.</strong></p>
+        <a href="products.html"class="btn">Explore Now &#8594;</a>
+
+    </div>
+    <div class="col-2">
+        <img src="images/logo_12.png" >
+
+    </div>
+</div>
+</div>
+</div>
+
+<!------ featured categories ------>
+<div class="categories">
+    <div class="small-container">
+        <h2 style="color: purple;">Product collections</h2>
+    <div class="row">
+        <table>
+            <tr style="height: 1px;">
+        <td><div class="col-3"></div>
+        <a> <img src="images/logo_31.png" width="400px" height="400px"></td>
+        <td><div class="col-3"></div>
+        <img src="images/logo_1.png" width="400px" height="400px"></td>
+        <td><div class="col-3"></div>
+        <img src="images/logo_4.png" width="400px" height="400px"></td>
+        </tr>
+        <tr style="height: 15px; text-align: center;">
+        <td><a href="products.html"class="btn">Travel bags &#8635;</a></td>
+        <td><a href="product_details.html"class="btn">Ladies' bags &#8635;</a></td>
+        <td style="text-align: center;"><a href="product_details.html"class="btn">Men categories &#8635;</a></td>
+        </tr>
+        </table>
+    </div>
+</div>
+</div>
+
+
+<!------ featured products ------>
+<div class="small-container">
+    <h2 class="title">Best sellers</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="product_details.html"><img src="images/logo_5.png"></a>
+            <a href="product_details.html"><h4>Black Givenchy bag</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$1,200.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/logo_25.png">
+            <h4>Dutch handbag</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$1,080.00</p>
+    </div>
+    <div class="col-4">
+        <img src="images/logo_40.png">
+        <h4>Luxurious Handbag</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>$420.91</p>
+</div>
+<div class="col-4">
+    <img src="images/logo_433.png">
+    <h4>Jacquemus handbag</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+    </div>
+    <p>$552.00</p>
+</div>
+<div class="col-4">
+    <img src="images/logo_13.png">
+    <h4>School backpack</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <i class="fa fa-star-o"></i>
+    </div>
+    <p>$700.00</p>
+</div>
+<div class="col-4">
+    <img src="images/logo_31.png">
+    <h4>Traveling bag</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+    </div>
+    <p>$981.00</p>
+</div>
+<div class="col-4">
+    <img src="images/logo_14.png">
+    <h4>Kanken backpack</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+    </div>
+    <p>$740.99</p>
+
+</div>
+<div class="col-4">
+    <img src="images/logo_42.png">
+    <h4>Bayn product</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+    </div>
+    <p>$796.90</p>
+</div>
+    </div>
+    <h2 class="title">Latest products</h2> <br><br>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/logo_46.png">
+            <h4>French Croos-back</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$970.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/logo_9.png">
+            <h4>Slin skin handbag</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$796.90</p>
+        </div>
+        <div class="col-4">
+            <img src="images/logo_41.png">
+            <h4>Fashion Satchel</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$1,000.30</p>
+        </div>
+        <div class="col-4">
+            <img src="images/logo_33.png">
+            <h4>Lone backpack</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$632.17</p>
+        </div>
+        <div class="col-4">
+            <img src="images/logo_38.png">
+            <h4>Branded handbag</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$999.99</p>
+        </div>
+        <div class="col-4">
+            <img src="images/logo_45.png">
+            <h4>Female fashion bag</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$970.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/logo_68.png">
+            <h4>Mis-blue bag</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$970.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/logo_69.png">
+            <h4>Brown shaded bag</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$970.00</p>
+        </div>
+            </div>
+            <!------ offer ------>
+            <div class="offer">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="images/logo_505.png" class="offer-img">
+                        </div>
+                        <div class="col-2">
+                            <p>Exclusively available on Bolsa</p>
+                            <h1> Executive Louis Vuitton</h1>
+                            <small>Louis Vuitton Monogram Giant Spring In The City On The Go PM.
+                                <br>Premium, opulence, elegantand, and sumptuousness</br></small>
+                                <a href="cart.html" class="btn">Buy Now &#8594;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+<!------- testimonial ------->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>This is a lovely company <br>to deal with to get goods.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                     <img src="images/testimonial_4.png"></a>
+                    <h3>Olushalewa Ben</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Customer support is great. Quick <br>response and fantastic approach.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                     <img src="images/testimonial_2.png"></a>
+                    <h3>John Gluberson</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>The bags are of good quality.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                     <img src="images/testimonial.png"></a>
+                    <h3>Mabel Atkinson</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------- brands ------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo_64.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo_61.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo_65.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo_62.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo_66.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------footer--------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/playstore.png">
+                    <img src="images/appstore_2.png">
+                    <h3 id="Contact">Contact us</h3>
+                    <ul>
+                       <li>Phone-number: +234 9039087940</li>
+                       <li>E-mail: bolsa.contact@gmail.com</li>
+                       <li>website: www.bolsa.ng.com</li>
+                       <li>Address: Bolsa street, Block A, Avencis Plaza, Nigeria.</li>  
+                    </ul>
+                </div>
+            </div>
+            <div class="footer col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <p>Coupon</p>
+                    <p>Blog Post</p>
+                    <p>Return Policy</p>
+                    <p>Join Affiliate</p>
+                    <p>Bolsa Ethics</p>
+                    <p>Privacy & Cookies</p>
+                </ul>
+            </div>
+            <div class="footer col-4">
+           
+                <div class="footer col-2">
+                    <img src="images/logo_use.png" width="30px" length="30px">
+                    <p>Our mission is to provide high quality branded <br>bags for our esteemed customers all over the world. </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - Emmanuel Adeyemo Iyanuoluwa</p>
+            <i class='fa fa-facebook'></i>
+            <i class='fa fa-twitter'></i>
+            <i class='fa fa-instagram'></i>
+            <i class='fa fa-youtube'></i>
+            <i class='fa fa-pinterest'></i>
+</div>
+
+
+
+
+<!--------js for toggle menu-------->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight = "200px"
+    }
+    else
+    {
+        MenuItems.style.maxHeight = "0px"
+    }
+}
+</script>
+
+
+    </body>
+</html>
