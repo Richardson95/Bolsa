@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UFC-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> All products High-Stand</title>
+<link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+
+<div class="container">
+
+        <div class="navbar">
+        <div class="logo">
+        </div>
+        <a href="Index.html"><img src="images/logo_use.png" width="80px" lenght="90px"></a>
+    <nav>
+        <ul id="MenItems">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="products.html">Product</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+    <a href="cart.html"><img src="images/cart_1.png" width="30px" height="30px"></a>
+    <img src="images/menu_icon.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+
+<h2 style="color: blueviolet;">About Bolsa</h2><br>
+
+<h4>Influential, innovative and progressive, Bolsa is<br> reinventing a wholly modern approach to fashion. 
+    The House has redefined luxury for the 21st<br> century, further reinforcing its position
+     as one of the world’s most desirable fashion<br> houses. Eclectic, contemporary, romantic—Bolsa 
+     products represent the pinnacle of Italian craftsmanship<br> and are unsurpassed for their quality and attention to detail.<br><br>
+
+    Bolsa is part of the Richardson Group. A global Luxury group, Richardson <br>manages the development
+     of a series of renowned Houses in Fashion, Leather Goods,<br> and Jewellery.
+    Discover the stories behind the House's collections, exclusively on Stories<br><br>
+
+Owned by <strong>Emmanuel Iyanuoluwa Adeyemo</strong></h4>
+           
+<!------footer--------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/playstore.png">
+                    <img src="images/appstore_2.png">
+                    <h3 id="contact">Contact us</h3>
+                    <ul>
+                       <li>Phone-number: +234 9039087940</li>
+                       <li>E-mail: bolsa.contact@gmail.com</li>
+                       <li>website: www.bolsa.ng.com</li>
+                       <li>Address: Bolsa street, Block A, Avencis Plaza, Nigeria.</li>  
+                    </ul>
+                </div>
+            </div>
+            <div class="footer col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <p>Coupon</p>
+                    <p>Blog Post</p>
+                    <p>Return Policy</p>
+                    <p>Join Affiliate</p>
+                    <p>Bolsa Ethics</p>
+                    <p>Privacy & Cookies</p>
+                </ul>
+            </div>
+            <div class="footer col-4">
+           
+                <div class="footer col-2">
+                    <img src="images/logo_use.png" width="30px" length="30px">
+                    <p>Our mission is to provide high quality branded <br>bags for our esteemed customers all over the world. </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - Emmanuel Adeyemo Iyanuoluwa</p>
+            <i class='fa fa-facebook'></i>
+            <i class='fa fa-twitter'></i>
+            <i class='fa fa-instagram'></i>
+            <i class='fa fa-youtube'></i>
+            <i class='fa fa-pinterest'></i>
+</div>
+
+
+
+
+
+<!--------js for toggle menu-------->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight = "200px"
+    }
+    else
+    {
+        MenuItems.style.maxHeight = "0px"
+    }
+}
+</script>
+
+
+    </body>
+</html>
