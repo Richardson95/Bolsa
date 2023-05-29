@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UFC-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> All products High-Stand</title>
+<link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+
+<div class="container">
+
+        <div class="navbar">
+        <div class="logo">
+        </div>
+        <a href="Index.html"><img src="images/logo_use.png" width="80px" lenght="90px"></a>
+    <nav>
+        <ul id="MenItems">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="products.html">Product</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+    <a href="cart.html"><img src="images/cart_1.png" width="30px" height="30px"></a>
+    <img src="images/menu_icon.png" class="menu-icon" onclick="menutoggle()">
+</div>
+</div>
+
+
+<!----------account-details-------->
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/logo_12.png" width="100%" >
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="register()">Register</span>
+                        <hr id="Indicator">
+                    </div>
+                
+                    <form id="LoginForm">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="" style="color: #000;">Forgot password</a>
+                    </form>
+
+                    <form id="RegForm">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="E-mail">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!------footer--------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/playstore.png">
+                    <img src="images/appstore_2.png">
+                    <h3 id="contact">Contact us</h3>
+                    <ul>
+                       <li>Phone-number: +234 9039087940</li>
+                       <li>E-mail: bolsa.contact@gmail.com</li>
+                       <li>website: www.bolsa.ng.com</li>
+                       <li>Address: Bolsa street, Block A, Avencis Plaza, Nigeria.</li>  
+                    </ul>
+                </div>
+            </div>
+            <div class="footer col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <p>Coupon</p>
+                    <p>Blog Post</p>
+                    <p>Return Policy</p>
+                    <p>Join Affiliate</p>
+                    <p>Bolsa Ethics</p>
+                    <p>Privacy & Cookies</p>
+                </ul>
+            </div>
+            <div class="footer col-4">
+           
+                <div class="footer col-2">
+                    <img src="images/logo_use.png" width="30px" length="30px">
+                    <p>Our mission is to provide high quality branded <br>bags for our esteemed customers all over the world. </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - Emmanuel Adeyemo Iyanuoluwa</p>
+            <i class='fa fa-facebook'></i>
+            <i class='fa fa-twitter'></i>
+            <i class='fa fa-instagram'></i>
+            <i class='fa fa-youtube'></i>
+            <i class='fa fa-pinterest'></i>
+</div>
+
+
+
+<!--------js for toggle menu-------->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight = "200px"
+    }
+    else
+    {
+        MenuItems.style.maxHeight = "0px"
+    }
+}
+</script>
+
+
+<!--------js for toggle Form-------->
+
+<script>
+    var LoginForm = document.getElementById("LoginForm");
+    var RegForm = document.getElementById("RegForm");
+    var Indicator = document.getElementById("Indicator");
+
+    function register(){
+        RegForm.style.transform = "translateX(0)";
+        LoginForm.style.transform = "translateX(0)";
+        Indicator.style.transform = "translateX(100px)";
+    }
+    function login(){
+        RegForm.style.transform = "translateX(300px)";
+        LoginForm.style.transform = "translateX(300px)";
+        Indicator.style.transform = "translateX(0px)";
+    }
+
+</script>
+
+
+    </body>
+</html>
